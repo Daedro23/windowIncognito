@@ -1,0 +1,53 @@
+<div class="container">
+    <div class="display">
+        <div class="img-cont">
+            <img src="../../assets/playstation.jpg" alt="">
+        </div>
+        <div class="cont1">
+            <div class="subtittle">Datos Personales</div>
+            <div>Nombre</div>
+            <div>Edad</div>  
+            <div>Mail</div> 
+            <div>Teléfono</div> 
+        </div>
+        <div class="cont2">
+            <div class="subtittle">Conocimientos</div>
+            <div>HTML</div>
+            <div>CSS</div>  
+            <div>JS</div> 
+            <div>Angular</div> 
+        </div>
+        <div class="cont3">
+            <div class="subtittle">Hobbies</div>
+            <div>Cantar</div>
+            <div>Comer</div>  
+            <div>Guitarra</div> 
+            <div>Cocinar</div> 
+        </div>
+    </div>
+    <div class="texto">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    </div>
+    <div class="videoCont">
+        <video class="video" (click)="iniciarVideo()" #videoPlayer poster="../../assets/playstation.jpg">
+            <source src="{{videoSource}}" type="video/mp4" />
+            Navegador no soportado
+        </video>
+    </div>
+    
+    <div class="displayImgs">
+        <div class="img-cont1">
+            <img class="imgs" [defaultImage]="defaultImage" [lazyLoad]="image1">
+        </div>
+        <div class="img-cont2">
+            <img class="imgs" [defaultImage]="defaultImage" [lazyLoad]="image2">
+        </div>
+        <div class="img-cont3">
+            <img class="imgs" [defaultImage]="defaultImage" [lazyLoad]="image3">
+        </div>
+        <div class="img-cont4">
+            <img class="imgs" [defaultImage]="defaultImage" [lazyLoad]="image4">
+        </div>
+    </div>
+</div>
+
