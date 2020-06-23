@@ -1,4 +1,14 @@
-# DannyClarin
+# Algunas aclaraciones:
+
+ - Se utilizo la librería ng-lazyload-image para la carga de imagenes (https://www.npmjs.com/package/ng-lazyload-image)
+ - Manejo el nativeElement para el manejo de los controles del video sin necesidad de aplicar una librería externa
+ - Se obtienen los valores requeridos en el archivo de dataService, se hace un POST con una url de prueba con los datos
+ - Detecta si el usuario esta navegando en modo incognito o por una variable la cual se envía en el metodo POST
+ - Implemetación de SCSS
+ - Se obtiene un valor para así guardarlo por localstorage así se recuerda al momento de volver, mostrando true si es primera y false la subsecuentes
+ - Responsive por medio de Grid con los breakpoints requeridos
+
+# Proyect
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
 

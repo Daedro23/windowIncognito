@@ -23,7 +23,7 @@ export class InicioComponent implements OnInit {
   @ViewChild('videoPlayer') videoplayer: ElementRef;
 
   iniciarVideo() {
-    if(this.videoplayer.nativeElement.paused === true) {
+    if(this.videoplayer.nativeElement.paused === true && this.videoplayer.nativeElement.controls === false) {
       this.videoplayer.nativeElement.play().subscribe(this.videoplayer.nativeElement.controls = true);
     } 
   }

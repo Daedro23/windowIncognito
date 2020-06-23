@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { DataServiceService } from './data-service.service';
 import { OnInit } from '@angular/core';
 
 @Component({
@@ -8,9 +7,8 @@ import { OnInit } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
-  constructor(private dataService: DataServiceService) { }
+  constructor() { }
 
   ngOnInit() {
-    this.dataService.incognito();
   }
 }
