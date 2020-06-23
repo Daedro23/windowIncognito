@@ -8,7 +8,7 @@
  - Se obtiene un valor para así guardarlo por localstorage así se recuerda al momento de volver, mostrando true si es primera y false la subsecuentes
  - Responsive por medio de Grid con los breakpoints requeridos
 
-# Proyect
+# Project
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
 
